@@ -6,7 +6,7 @@
     --dark-blue: hsl(198, 62%, 26%);
     --dark-moderate-cyan: hsl(168, 34%, 41%);
 
-    --eastern-blue: hsl(200, 97%, 63%);
+    --eastern-blue: hsl(200, 100%, 63%);
     
     /* Neutral Colors */
     --very-dark-desaturated-blue: hsl(212, 27%, 19%);
@@ -31,24 +31,40 @@ body {
     height: 5vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left: 5%;
     padding-right: 10%;
     color: var(--white);
     background-color: var(--eastern-blue);
 }
 
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
 
+.nav a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: var(--yellow);
+}
 
 .sc-one {
+    padding-top: 5%;
     color: var(--white);
     background-color: var(--eastern-blue);
-    
+    font-size: 3rem;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    height: 90vh;
+    height: 85vh;
     width: 100%;
     background-image: url(/images/desktop/image-header.jpg);
     background-repeat: no-repeat;
@@ -57,6 +73,7 @@ body {
 }
 
 .arrow {
-    height: 30vh;
-    margin-bottom: 50vh;
+    height: 20vh;
+    margin-bottom: 40vh;
 }
+
