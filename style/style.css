@@ -6,7 +6,7 @@
     --dark-blue: hsl(198, 62%, 26%);
     --dark-moderate-cyan: hsl(168, 34%, 41%);
 
-    --eastern-blue: hsl(200, 97%, 62%);
+    --eastern-blue: hsl(200, 97%, 63%);
     
     /* Neutral Colors */
     --very-dark-desaturated-blue: hsl(212, 27%, 19%);
@@ -19,7 +19,7 @@
 * {
     margin: 0%;
     padding: 0%;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -27,13 +27,22 @@ body {
 }
 
 .header {
+    padding-top: 15px;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 10%;
     color: var(--white);
     background-color: var(--eastern-blue);
 }
 
+
+
 .sc-one {
     color: var(--white);
     background-color: var(--eastern-blue);
+    
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -48,6 +57,6 @@ body {
 }
 
 .arrow {
-    height: 150px;
+    height: 30vh;
     margin-bottom: 50vh;
 }
