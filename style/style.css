@@ -22,9 +22,9 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-body {
+/* body {
     border: 1px solid black;
-}
+} */
 
 .header {
     padding-top: 15px;
@@ -77,3 +77,17 @@ body {
     margin-bottom: 40vh;
 }
 
+.sc-two {
+    width: 100%;
+    height: 50vh;
+}
+
+.sc-three {
+    width: 100%;
+    height: 50vh;
+}
+
+.sc-four {
+    width: 100%;
+    height: 50vh;
+}
