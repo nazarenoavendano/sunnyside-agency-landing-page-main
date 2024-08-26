@@ -177,8 +177,24 @@
 .sc-four {
     width: 100%;
     height: 70vh;
+    display: flex;
 }
 
+.sc-four-div-one {
+    width: 50%;
+    background-image: url('/images/desktop/image-graphic-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+}
+
+.sc-four-div-two {
+    width: 50%;
+    background-image:url('/images/desktop/image-photography.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+}
 
 .footer {
     background-color: var(--dark-desaturated-cyan);
