@@ -196,6 +196,13 @@
     background-position: initial;
 }
 
+.sc-five {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
 .footer {
     background-color: var(--dark-desaturated-cyan);
     display: flex;
