@@ -199,7 +199,13 @@
 .sc-five {
     height: 100vh;
     width: 100%;
+}
+
+.title-testimonial {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 
 }
 
